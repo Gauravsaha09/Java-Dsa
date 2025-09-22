@@ -6,7 +6,7 @@ public class Q4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
             
-        System.out.println("Enter the number that you want to print the table: ");
+        System.out.print("Enter the number that you want to print the table: ");
         
         int num = sc.nextInt();
            
