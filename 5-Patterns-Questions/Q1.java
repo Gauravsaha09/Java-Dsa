@@ -10,7 +10,7 @@ public class Q1 {
             for (int j = 1; j<=4; j++) {  //Nested loop
                 System.out.print("*");
             }
-            System.out.println();
+            System.out.println( );
         }
     }
 }
