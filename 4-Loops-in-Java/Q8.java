@@ -2,20 +2,17 @@
 import java.util.Scanner;
 
 class Q8{
-    public static void main(String rgs[]){
+    public static void main(String[] args) {
+        System.out.println("Enter a number:");
         Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
 
-
-        System.out.print("Enter a number: ");
-        int n = sc.nextInt();
         int sum = 0;
-
-        int i = 1;
-        while(i <= n){
-            sum =+ i;
-            i++;
+        for(int i = 1; i <= num; i++) {
+            sum += i;
         }
-        
-        System.out.println("Sum is: " + sum);
+        System.out.println("Sum of first " + num + " natural numbers is: " + sum);
+        sc.close();
+
     }
 }
